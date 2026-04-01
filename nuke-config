@@ -1,0 +1,12 @@
+regions:
+  - ap-northeast-2  # 서울 리전 (주로 사용하는 리전만 넣으면 빨라집니다)
+  - global          # IAM 등 글로벌 리소스 삭제를 위해 필수
+
+account-blocklist:  # 절대 지우면 안 되는 계정 ID (필수)
+  - "999999999999"
+
+accounts:
+  "781729906178": # 지한 님의 계정 ID
+    filters:
+      IAMUser:
+        - "admin" # 본인 관리자 계정은 삭제 제외 설정 권장
