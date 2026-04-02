@@ -19,7 +19,7 @@ account-blocklist:  # 절대 지우면 안 되는 계정 ID (필수)
   - "999999999999" 
 
 accounts:
-  "781729906178": # 지한 님의 계정 ID
+  "<<계정 ID>>": # 지한 님의 계정 ID
     filters:
       IAMUser:
         - "admin" # 본인 관리자 계정은 삭제 제외 설정 권장
